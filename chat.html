@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Windows</title>
+  <link rel="stylesheet" href="css/chatstyle.css">
+  <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+  <script defer src="js/chat-action.js"></script>
+</head>
+
+<body>
+  <form action="" id="send-container">
+    <div class="menu">
+      <a href="#" class="back"><i class="fa fa-angle-left"></i> <img src=""
+          draggable="false" /></a>
+      <div class="name">Random chat</div>
+      <div class="members"><b>You</b>, Marga, Charo & Brotons</div>
+    </div>
+    <ol class="chat container">
+
+
+    </ol>
+
+    <!-- Send Button With Message Box -->
+    <div class="typezone">
+      <textarea type="text" placeholder="Say something" id="messageInp"></textarea>
+      <input type="submit" class="send" value="" />      
+      <div class="emojis"></div>
+    </div>
+  </form>
+</body>
+
+</html>
